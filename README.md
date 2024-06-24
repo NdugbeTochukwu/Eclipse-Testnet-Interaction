@@ -105,7 +105,7 @@ anchor --version
 
 ## Create a Solana Wallet 
 ```
-solana-keygen new -o /path-to-wallet/my-wallet.json
+solana-keygen new -o /path-to-wallet/my-wallet.json for vps while for gitpod users use solana-keygen new --outfile my-wallet.json
 ```
 ![image](https://github.com/mztacat/Eclipse-Testnet-Interaction/assets/31314340/5ebb84f3-8c57-4fdd-af89-b72d58373470)
 
@@ -123,7 +123,7 @@ solana config set --url https://testnet.dev2.eclipsenetwork.xyz/
 ![image](https://github.com/mztacat/Eclipse-Testnet-Interaction/assets/31314340/5e778d24-6df2-4ce9-a152-6e4d2fa8bc27)
 
 ```
-solana config set --keypair /path-to-wallet/my-wallet.json
+solana config set --keypair /path-to-wallet/my-wallet.json while for gitpod users use solana config set --keypair my-wallet.json
 
 ```
 
